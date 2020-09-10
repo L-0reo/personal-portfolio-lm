@@ -1,0 +1,32 @@
+{% extends 'portfolio/base.html' %}
+{% block content %}
+<div class="footer_padding">
+  <div class="projectimage">
+    <a href="#" style="color:#252529; text-decoration: none;"><img src="{{ project.image.url }}" height="320" width="450">
+  </div>
+  <h1 class="pr_title">{{ project.title }}</h1>
+
+  <p class="pr_description">{{ project.description|safe }}</p>
+  {% if project.title == 'TicTacToe Game' %}
+  <a class="li_nk" href="{{ project.url }}" target="_blank"><p class='btn btn-primary'>play game</p></a>
+  {% else %}
+  <a class="li_nk" href="{{ project.url }}" target="_blank"><p class='btn btn-primary'>view site</p></a>
+  {% endif %}
+  <a class="ho_me" href="{% url 'home' %}"><p class='btn btn-link' style="text-decoration: none;">home</p></a>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<footer style="bottom: 0;"class="footer_detail">
+  <div class="container">
+    <p>© 2020 Enjoy. All rights reserved</p>
+  </div>
+</footer>
+
+{% endblock %}
+href="{{ project.url }}"

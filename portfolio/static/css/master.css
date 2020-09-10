@@ -1,0 +1,99 @@
+
+  .bg-dark {
+    background-color:  #757e80!important;
+
+  }
+
+  .jumbotron {
+    /* padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem; */
+    padding-top: 8%;
+    padding-bottom: 4%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    }
+  .jumbotron .container {
+    max-width: 40rem;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    color: white;
+  }
+
+
+  .jumbotron h1 {
+    color: #2A2A30!important;
+  }
+
+ .home_button {
+
+    margin-right: 1000px;
+
+  }
+
+  .text-white {
+    color:#343a40!important;
+    font-weight: 540;
+  }
+
+  .jumbotron p {
+    color: #2A2A30!important;
+    font-weight: normal;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+  /* in portfolio_detail */
+  .pr_title {
+   margin-top: 80px;
+   margin-bottom: 40px;
+   margin-right: 30px;
+   margin-left: 60px;
+  }
+
+  .pr_description {
+   margin-top: 0px;
+   margin-bottom: 40px;
+   margin-right: 30px;
+   margin-left: 60px;
+  }
+
+  .li_nk {
+
+   margin-top: 0px;
+   margin-bottom: 40px;
+   margin-right: 30px;
+   margin-left: 60px;
+  }
+
+  .ho_me {
+
+   margin-top: 0px;
+   margin-bottom: 40px;
+   margin-right: 30px;
+   margin-left: 10px;
+  }
+
+  .projectimage {
+    border: 3px solid #ddd;
+    border-radius: 4px;  /* Rounded border */
+    /* padding: 5px; Some padding */
+    float: right;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-right: 120px;
+    margin-left: 60px;
+  }
+
+  .footer_padding {
+  padding-bottom: 250px;
+  }
+
+  .footer_detail {
+    /* position: absolute; */
+    bottom: 0;
+    margin-left: 200px;
+
+    color: #b5a7a7;
+  }
