@@ -1,32 +1,57 @@
 
   .bg-dark {
-    background-color:  #757e80!important;
+    background-color:  #ab9da9!important;
+    /* #949494 */
+    /* 79aec2 */
+
+    /* really good aa8ea6 */
 
   }
 
-  .jumbotron {
-    /* padding: 2rem 1rem;
+  /* .jumbotron {
+    padding: 2rem 1rem;
     margin-bottom: 2rem;
-    border-radius: .3rem; */
-    padding-top: 8%;
-    padding-bottom: 4%;
+    border-radius: .3rem;
+    background-color:  #ab9da9!important;
+    padding-top: 4%;
+    padding-bottom: 5%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    }
-  .jumbotron .container {
-    max-width: 40rem;
-    background: rgba(255, 255, 255, 0.5);
-    padding: 2rem;
-    color: white;
-  }
+    } */
 
-  .jumbotron p {
-    color: #2A2A30!important;
+    /* .kepkore {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 12%;
+    padding-right: 7%;
+    width: 100%; */
+     /* background-color: #ab9da9; */
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  } */
+
+  /* .kepkore img {
+    border:1px solid #bdc2c2;
+    border-bottom: 0px;
+    border-radius: 5px;
+
+  } */
+
+
+   p {
+    text-align: center;
+    /* padding-left: 14%; */
+
+    /* color: #2A2A30!important;
+    float: right;
     font-weight: normal;
+    padding-top: 10%;
     font-size: 24px;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+     text-shadow: 0 0 10px rgba(0,0,0,0.5); */
 }
 
 
