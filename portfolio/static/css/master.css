@@ -66,6 +66,12 @@
 
   }
 
+  .photo {
+    align-self: center;
+    align-items: center;
+    text-align: center;
+  }
+
   .text-white {
     color:#343a40!important;
     font-weight: 540;
