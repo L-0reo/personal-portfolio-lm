@@ -17,14 +17,14 @@ import os
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 
 
-
+SECRET_KEY = '%lofgdu*h7sjxg7s9rifjgh$y5ue%v)pbkpln-gxoodz!&^e#r'
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 
 
-SECRET_KEY = os.getenv('SECRET_KEY')
-if not SECRET_KEY:
-    SECRET_KEY = os.environ.get('SECRET_KEY_PERSONAL_PORTFOLIO')
+# SECRET_KEY = os.getenv('SECRET_KEY')
+# if not SECRET_KEY:
+#     SECRET_KEY = os.environ.get('SECRET_KEY_PERSONAL_PORTFOLIO')
 
 
 
